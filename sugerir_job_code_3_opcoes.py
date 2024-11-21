@@ -9,7 +9,7 @@ import streamlit as st
 nltk.download('stopwords')
 
 # Ler o arquivo Excel hospedado no GitHub
-url_excel = 'https://github.com/Diegosales01/Jobcode/blob/main/Base_Job_Code_2024.xlsx'
+url_excel = 'https://raw.githubusercontent.com/Diegosales01/projeto_job_code/main/base_job_code_2024.xlsx'
 dados = pd.read_excel(url_excel)
 
 # Obter stopwords em português
